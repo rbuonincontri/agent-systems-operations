@@ -117,52 +117,21 @@ The diagram below illustrates the operational boundary where behavioral changes 
 
 
 ```mermaid
-
 flowchart LR
 
+A[Prompt Editing] --> B[Behavior Admission]
+C[Tool Routing Changes] --> B
+D[Delegation Policies] --> B
+E[Evaluation Thresholds] --> B
 
+B --> F[BehaviorSpec]
 
-A\[Prompt Editing] --> B\[Behavior Admission]
+F --> G[Agent Runtime]
 
-C\[Tool Routing Changes] --> B
-
-D\[Delegation Policies] --> B
-
-E\[Evaluation Thresholds] --> B
-
-
-
-B --> F\[BehaviorSpec]
-
-
-
-F --> G\[Agent Runtime]
-
-G --> H\[Tool Execution]
-
-G --> I\[Delegation to Agents]
-
-G --> J\[Memory Access]
-
-
-
-H --> K\[External Systems]
-
-I --> K
-
-J --> K
-
-
-
-subgraph Production Boundary
-
-B
-
-F
-
-G
-
-end
+G --> H[Tool Execution]
+G --> I[Delegation to Agents]
+G --> J[Memory Access]
+```
 
 
 
