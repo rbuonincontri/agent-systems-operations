@@ -137,7 +137,7 @@ G --> J[Memory Access]
 
 
 
-\## Contents
+## Contents
 
 
 
@@ -171,7 +171,7 @@ Reusable templates for specifications and practices
 
 
 
-\## Agent Systems Operations Maturity Model
+## Agent Systems Operations Maturity Model
 
 
 
