@@ -42,7 +42,11 @@ Agent systems introduce behavioral change outside traditional deployment pipelin
 
 
 
-Production behavior can change through artifacts such as:
+In traditional software systems, production behavior changes primarily through code deployment. Agent systems break that assumption.
+
+
+
+Production behavior can change through artifacts that live outside application code:
 
 
 
@@ -105,6 +109,12 @@ The focus is on operating agent systems reliably in production environments.
 
 
 \## The Agent Operational Boundary
+
+
+
+The diagram below illustrates the operational boundary where behavioral changes must be admitted before affecting production systems.
+
+
 
 ```mermaid
 
