@@ -1,4 +1,4 @@
-\# Agent Systems Operations
+# Agent Systems Operations
 
 
 
@@ -12,21 +12,21 @@ Maintained by engineers working on production AI infrastructure.
 
 
 
-\## Overview
+## Overview
 
 
 
-\- \[Why This Exists](#why-this-exists)
+- [Why This Exists](#why-this-exists)
 
-\- \[What You Will Find Here](#what-you-will-find-here)
+- [What You Will Find Here](#what-you-will-find-here)
 
-\- \[The Agent Operational Boundary](#the-agent-operational-boundary)
+- [The Agent Operational Boundary](#the-agent-operational-boundary)
 
-\- \[Repository Structure](#repository-structure)
+- [Repository Structure](#repository-structure)
 
-\- \[Agent Systems Operations Maturity Model](#agent-systems-operations-maturity-model)
+- [Agent Systems Operations Maturity Model](#agent-systems-operations-maturity-model)
 
-\- \[Contributing](#contributing)
+- [Contributing](#contributing)
 
 
 
@@ -34,7 +34,7 @@ Maintained by engineers working on production AI infrastructure.
 
 
 
-\## Why This Exists
+## Why This Exists
 
 
 
@@ -50,15 +50,15 @@ Production behavior can change through artifacts that live outside application c
 
 
 
-\- prompts
+- prompts
 
-\- tool routing rules
+- tool routing rules
 
-\- delegation policies
+- delegation policies
 
-\- evaluation thresholds
+- evaluation thresholds
 
-\- memory configuration
+- memory configuration
 
 
 
@@ -70,11 +70,11 @@ When this occurs, teams lose key operational properties:
 
 
 
-\- controlled change
+- controlled change
 
-\- traceability
+- traceability
 
-\- reliable rollback
+- reliable rollback
 
 
 
@@ -82,7 +82,7 @@ This repository documents operational practices that restore those properties fo
 
 
 
-\## What You Will Find Here
+## What You Will Find Here
 
 
 
@@ -90,17 +90,17 @@ This repository collects emerging operational practices for agent systems, inclu
 
 
 
-\- behavior admission and versioning
+- behavior admission and versioning
 
-\- rollback and recovery for agent behavior
+- rollback and recovery for agent behavior
 
-\- delegation control
+- delegation control
 
-\- tool execution guardrails
+- tool execution guardrails
 
-\- evaluation and regression testing
+- evaluation and regression testing
 
-\- observability for agent decision flows
+- observability for agent decision flows
 
 
 
@@ -108,7 +108,7 @@ The focus is on operating agent systems reliably in production environments.
 
 
 
-\## The Agent Operational Boundary
+## The Agent Operational Boundary
 
 
 
